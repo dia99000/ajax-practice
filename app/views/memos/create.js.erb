@@ -1,0 +1,4 @@
+//入力フォームを空欄にする処理
+document.getElementById("#memo_text").value("");
+//メモ一覧を再描画する処理
+document.getElementById("ul").InnerHTML("<%= j(render @memos) %>");
